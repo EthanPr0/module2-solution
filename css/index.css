@@ -1,0 +1,90 @@
+* {
+    text-align: center;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+p {
+    border: 1px solid black;
+    background-color: rgb(35, 35, 190);
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.texts {
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.t {
+    float: left;
+    padding: 10px;
+    width: 33.33%;
+}
+
+span {
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 100px;
+    padding-top: 4px;
+    text-align: center;
+    float: right;
+}
+
+.chicken {
+    background-color: rosybrown;
+}
+
+.beef {
+    background-color: brown;
+}
+
+.sushi {
+    background-color: burlywood;
+}
+
+
+/* Version Tablette comprise entre 768px et 991px*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .t.t1 {
+        width: 50%;
+    }
+
+    .t.t2 {
+        width: 50%;
+    }
+
+    .t.t3 {
+        width: 100%;
+    }
+}
+
+/* Version Mobile inférieur ou égale à 767px*/
+@media (max-width: 767px) {
+    .t.t1 {
+        width: 100%;
+    }
+
+    .t.t2 {
+        width: 100%;
+    }
+
+    .t.t3 {
+        width: 100%;
+    }
+}
